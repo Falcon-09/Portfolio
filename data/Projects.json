@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Opus Focus",
+        "desc": "Full stack Job portal built using MERN stack",
+        "image": "opus",
+        "category": "mern",
+        "links": {
+            "view": "https://opus-focus.herokuapp.com",
+            "code": "https://github.com/opusfocusltd/OpusFocus"
+        }
+    },
+    {
+        "name": "Music Genre Classifier",
+        "desc": "Full stack music genre classifier built using Python, Flask, Html, CSS, Machine learning models.",
+        "image": "genre",
+        "category": "basicweb",
+        "links": {
+            "view": "https://music-genre-classifierapp.herokuapp.com",
+            "code": "https://github.com/Falcon-09/Music-Genre-Classification"
+        }
+    },
+    {
+        "name": "Chatify",
+        "desc": "Full stack chat application built using Nodejs, Expressjs, Html, CSS, Socket.io",
+        "image": "chatify",
+        "category": "basicweb",
+        "links": {
+            "view": "",
+            "code": ""
+        }
+    },
+    {
+        "name": "Portfolio Website",
+        "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+        "image": "portfolio",
+        "category": "mern",
+        "links": {
+            "view": "",
+            "code": ""
+        }
+    },
+    {
+        "name": "Socialy",
+        "desc": "Full stack social media website built using MERN stack and realtime chat with the help of Socket.io",
+        "image": "socialy",
+        "category": "mern",
+        "links": {
+            "view": "https://socialy.vercel.app",
+            "code": "https://github.com/Falcon-09/Socialy-Frontend"
+        }
+    }
+]
