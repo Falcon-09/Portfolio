@@ -31,42 +31,35 @@ const Header = () => {
           md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
           md:rounded-lg md:border-b-[0.5rem] md:border-solid md:border-[#011aff]
          '>Home</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem] 
+        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#about' scroll={false}><a className='no-underline text-[1.57rem] 
         text-[#0e2431] font-bold tracking-wider transition duration-[0.2s] 
         border-x-0 border-t-0
         hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid
         md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
         md:hover:text-white md:hover:rounded-lg md:hover:border-b-[0.5rem] md:hover:border-solid md:hover:border-[#011aff]
         '>About</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem]
+        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#skills' scroll={false}><a className='no-underline text-[1.57rem]
         text-[#0e2431] font-bold tracking-wider transition duration-[0.2s]
         border-x-0 border-t-0
         hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid
         md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
         md:hover:text-white md:hover:rounded-lg md:hover:border-b-[0.5rem] md:hover:border-solid md:hover:border-[#011aff]
         '>Skills</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem] 
-        text-[#0e2431] font-bold tracking-wider transition duration-[0.2s] 
-        border-x-0 border-t-0
-        hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid
-        md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
-        md:hover:text-white md:hover:rounded-lg md:hover:border-b-[0.5rem] md:hover:border-solid md:hover:border-[#011aff]
-        '>Education</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem]
+        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#projects' scroll={false}><a className='no-underline text-[1.57rem]
         text-[#0e2431] font-bold tracking-wider transition duration-[0.2s] 
         border-x-0 border-t-0
         hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid
         md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
         md:hover:text-white md:hover:rounded-lg md:hover:border-b-[0.5rem] md:hover:border-solid md:hover:border-[#011aff]
         '>Work</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem]
+        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#experience' scroll={false}><a className='no-underline text-[1.57rem]
         text-[#0e2431] font-bold tracking-wider transition duration-[0.2s] 
         border-x-0 border-t-0
         hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid
         md:block md:p-4 md:text-left md:text-white md:text-[2rem] 
         md:hover:text-white md:hover:rounded-lg md:hover:border-b-[0.5rem] md:hover:border-solid md:hover:border-[#011aff]
         '>Experience</a></Link></li>
-        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#'><a className='no-underline text-[1.57rem]
+        <li className='ml-10 md:text-center md:w-[26rem] md:my-4 md:rounded-lg'><Link href='#contact' scroll={false}><a className='no-underline text-[1.57rem]
         text-[#0e2431] font-bold tracking-wider transition duration-[0.2s] 
         border-x-0 border-t-0
         hover:text-[#011aff] hover:py-2 hover:border-b-[0.2rem] hover:border-solid

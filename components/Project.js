@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Project = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
         <h2 className='flex items-center justify-center gap-3 text-[#fff] p-4 text-[3.5rem] md:text-[3.2rem] font-extrabold text-center'><FaLaptopCode className='text-[4.5rem] md:text-[4.1rem]' /> 
         Projects <span className='text-[rgb(255,230,0)]'>Made</span></h2>
         <div className='flex flex-wrap gap-6 m-8'>  

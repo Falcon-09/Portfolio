@@ -3,7 +3,7 @@ import {FaBriefcase} from 'react-icons/fa'
 
 const Experience = () => {
   return (
-    <section className='bg-[#FFFFFF] experience'>
+    <section className='bg-[#FFFFFF] experience' id='experience'>
     <h2 className='flex items-center justify-center gap-3 text-[3.5rem] md:text-[3.2rem] text-[rgb(32,32,32)] font-extrabold text-center'><FaBriefcase /> Experience</h2>
 
     <div className='timeline'>

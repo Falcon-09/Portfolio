@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <>
-    <section className='bg-[#e5ecfb] min-h-[60vh] md:min-h-[70vh]'>
+    <section className='bg-[#e5ecfb] min-h-[60vh] md:min-h-[70vh]' id='contact'>
   
   <h2 className='flex justify-center items-center text-[3.5rem] text-[rgb(32,32,32)] 
   font-extrabold text-center mr-14

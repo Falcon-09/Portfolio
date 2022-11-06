@@ -7,7 +7,7 @@ import {FaChevronRight,FaUserAlt} from 'react-icons/fa'
 const About = () => {
 
   return (
-    <section className="bg-[#FFFFFF]">
+    <section className="bg-[#FFFFFF]" id="about">
       <div className="flex justify-center items-center">
       <FaUserAlt className="text-[3.5rem] md:text-[3.2rem] mr-3"/>
     <h2 className="text-[3.5rem] md:text-[3.2rem] text-[#202020] font-extrabold text-center">About <span className="text-[#7303A7] md:text-[3.2rem]">Me</span></h2>

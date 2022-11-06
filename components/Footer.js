@@ -18,19 +18,16 @@ const Footer = () => {
             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
             hover:text-[#ffae00] gap-2 tracking-wider font-medium
             '><FaChevronCircleRight/> home</a></Link>
-             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
+             <Link href='#about' scroll={false}><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
             hover:text-[#ffae00] gap-2 tracking-wider font-medium
             '><FaChevronCircleRight/> about</a></Link>
-             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
+             <Link href='#skills' scroll={false}><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
             hover:text-[#ffae00] gap-2 tracking-wider font-medium
             '><FaChevronCircleRight/> skills</a></Link>
-             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
-            hover:text-[#ffae00] gap-2 tracking-wider font-medium
-            '><FaChevronCircleRight/> education</a></Link>
-             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
+             <Link href='#projects' scroll={false}><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
             hover:text-[#ffae00] gap-2 tracking-wider font-medium
             '><FaChevronCircleRight/> work</a></Link>
-             <Link href='#'><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
+             <Link href='#experience' scroll={false}><a className='flex items-center text-[1.5rem] text-[#EEEEEE] py-[0.3rem] px-0
             hover:text-[#ffae00] gap-2 tracking-wider font-medium
             '><FaChevronCircleRight/> experience</a></Link>
 

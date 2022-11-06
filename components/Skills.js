@@ -4,7 +4,7 @@ import data from '../data/Skills.json'
 
 const Skills = () => {
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
         <div className='flex justify-center items-center text-[3.5rem] md:text-[3.2rem] font-poppins font-extrabold'>
         <FaLaptopCode className='text-[#fff] text-[4.1rem] mr-3'/> <h2 className='text-[#fff]'> Skills & <span className='text-[#FFE600]'>Abilities</span></h2>
         </div>
