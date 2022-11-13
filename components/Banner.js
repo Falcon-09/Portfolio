@@ -15,7 +15,7 @@ const Banner = () => {
         <div className='pt-4 z-10 flex-grow-[1] flex-shrink-[1] basis-[40rem] mt-4'>
             <h2 className='text-[5rem] md:text-[4rem] font-extrabold text-[#002057]'>Hi There,<br /> I'm Nipun <span className='text-[5rem] md:text-[4rem] font-extrabold text-[#ff7b00]'>Mitra</span></h2>
             <p className='text-[2.5rem] text-[#000] font-semibold py-4 md:text-[1.85rem]'>I am into <span className='text-[2.5rem] text-[#940808] font-semibold py-4 md:text-[1.85rem]'><Typed strings={["frontend development", "backend development", "web designing", "android development", "web development"]} typeSpeed={50} backSpeed={50} backDelay={500} loop/></span></p>
-            <Link href='#'><a className='flex justify-center items-center mt-4 absolute leading-[0] 
+            <Link href='#about'><a className='flex justify-center items-center mt-4 absolute leading-[0] 
             py-[1.6rem] px-12 rounded-[4em] transition duration-[0.5s] text-white 
             bg-[#2506ad] shadow-lg shadow-[#3044f799] hover:bg-[#1a047e] group
             md:my-16 
