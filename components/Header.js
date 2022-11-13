@@ -1,13 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {FaNodeJs,FaBars} from 'react-icons/fa'
 import {ImCross} from 'react-icons/im'
 import { Squash as Hamburger } from 'hamburger-react'
+import $ from 'jquery'
 
 const Header = () => {
   // <ImCross className='h-8 w-8'/>
   const[menuOpen,setMenuOpen] = useState(false)
+
+  useEffect(() => {
+    $(window).on('scroll load',function(){
+      setMenuOpen(false)
+    })
+  }, [])
 
   const handleMenu = () => {
     setMenuOpen((prev) => !prev)
