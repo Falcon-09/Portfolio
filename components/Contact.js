@@ -25,7 +25,7 @@ const Contact = () => {
 
   const SendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm(process.env.SERVICE_KEY,process.env.TEMPLATE_KEY, form.current,process.env.API_KEY)
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_KEY,process.env.NEXT_PUBLIC_TEMPLATE_KEY, form.current,process.env.NEXT_PUBLIC_API_KEY)
       .then((result) => {
           toast.success("Email sent!",toastOptions)
           console.log(result.text);
