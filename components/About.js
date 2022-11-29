@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image"
 import Link from 'next/link'
 import {FaChevronRight,FaUserAlt} from 'react-icons/fa'
+import 'aos/dist/aos.css'
+import Aos from "aos";
 
 
 const About = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000})
+  },[])
 
   return (
     <section className="bg-[#FFFFFF]" id="about">
@@ -20,7 +26,7 @@ const About = () => {
         md:my-0 md:mx-auto md:w-[80%] md:mix-blend-normal
         "/> 
     </div>
-    <div className="flex-grow flex-shrink basis-[45rem] p-11 md:p-4">
+    <div data-aos='fade-down' className="flex-grow flex-shrink basis-[45rem] p-11 md:p-4">
         <h3 className="text-[rgb(27, 27, 27)] text-[2.5rem] font-bold">I'm Nipun</h3>
         <span className="text-[1.4rem] text-[#020133] font-semibold mt-4">Full Stack Developer</span>
         

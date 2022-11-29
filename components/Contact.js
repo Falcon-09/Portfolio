@@ -1,12 +1,19 @@
-import React, { useRef } from 'react'
+import React, { useRef,useEffect } from 'react'
 import {FaHeadset,FaPaperPlane,FaUser,FaEnvelope,FaPhoneAlt,FaCommentDots} from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
 import 'react-toastify/dist/ReactToastify.css'
 import { toast,ToastContainer } from 'react-toastify'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Contact = () => {
 
   const form = useRef()
+
+  useEffect(() =>{
+    Aos.init({duration: 1500})
+  },[])
 
   const toastOptions = {
     position: 'bottom-right',
@@ -18,8 +25,7 @@ const Contact = () => {
 
   const SendEmail = (e) => {
     e.preventDefault()
-
-    emailjs.sendForm('service_mfjwag9', 'template_1x16yuc', form.current, 'qc9ijop_N6GBR2v9A')
+    emailjs.sendForm(process.env.SERVICE_KEY,process.env.TEMPLATE_KEY, form.current,process.env.API_KEY)
       .then((result) => {
           toast.success("Email sent!",toastOptions)
           console.log(result.text);
@@ -37,7 +43,7 @@ const Contact = () => {
   font-extrabold text-center mr-14
   '><FaHeadset className='mr-3'/> Get in <span className='text-[rgb(115,3,167)] ml-3'>Touch</span></h2>
 
-  <div className='max-w-[1050px] w-full bg-[#fff] rounded-3xl my-8 mx-20 shadow-md 
+  <div data-aos='fade-down' className='max-w-[1050px] w-full bg-[#fff] rounded-3xl my-8 mx-20 shadow-md 
   md:mx-0 md:mt-12 md:mb-8
   '>
     <div className='flex items-center justify-between py-10 px-8 md:py-[18px] md:px-[12px]'>

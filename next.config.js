@@ -4,4 +4,11 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  env: {
+    SERVICE_KEY: 'service_mfjwag9',
+    TEMPLATE_KEY: 'template_1x16yuc',
+    API_KEY: 'qc9ijop_N6GBR2v9A'
+  }
+}

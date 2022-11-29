@@ -1,15 +1,20 @@
-import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import React,{useEffect} from 'react'
 import {FaLaptopCode} from 'react-icons/fa'
 import data from '../data/Skills.json'
 
 const Skills = () => {
+    useEffect(() =>{
+        Aos.init({duration: 1500})
+    },[])
   return (
     <section className='skills' id='skills'>
         <div className='flex justify-center items-center text-[3.5rem] md:text-[3.2rem] font-poppins font-extrabold'>
         <FaLaptopCode className='text-[#fff] text-[4.1rem] mr-3'/> <h2 className='text-[#fff]'> Skills & <span className='text-[#FFE600]'>Abilities</span></h2>
         </div>
         
-        <div className='bg-[#00001666] text-[#fff] rounded-2xl p-8 w-[90%] m-auto mt-8 md:p-0 md:m-0 md:mt-[5px] md:w-full'>
+        <div data-aos='fade-down' className='bg-[#00001666] text-[#fff] rounded-2xl p-8 w-[90%] m-auto mt-8 md:p-0 md:m-0 md:mt-[5px] md:w-full'>
             <div className='grid grid-cols-6 flex-wrap gap-[1.8rem] md:grid-cols-2 md:m-4 md:py-8 md:px-[0.2rem]'>
                 {
                     data.map((skill) => (

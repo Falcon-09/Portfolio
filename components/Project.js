@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {FaLaptopCode} from 'react-icons/fa'
 import data from '../data/Projects.json'
 import {FaEye,FaCode} from 'react-icons/fa'
 import Link from 'next/link'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Project = () => {
+  useEffect(() =>{
+    Aos.init({duration: 1500})
+  },[])
   return (
     <section className='projects' id='projects'>
         <h2 className='flex items-center justify-center gap-3 text-[#fff] p-4 text-[3.5rem] md:text-[3.2rem] font-extrabold text-center'><FaLaptopCode className='text-[4.5rem] md:text-[4.1rem]' /> 
         Projects <span className='text-[rgb(255,230,0)]'>Made</span></h2>
-        <div className='flex flex-wrap gap-6 m-8'>  
+        <div data-aos='fade-down' className='flex flex-wrap gap-6 m-8'>  
         {
             data.map((project) => (
             <div key={project.image} className='flex-grow flex-shrink basis-[30rem] rounded-lg shadow-lg shadow-[rgba(0,0,0,0.1)] overflow-hidden

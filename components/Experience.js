@@ -1,12 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {FaBriefcase} from 'react-icons/fa'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Experience = () => {
+  useEffect(() =>{
+    Aos.init({duration: 1500})
+  },[])
   return (
     <section className='bg-[#FFFFFF] experience' id='experience'>
     <h2 className='flex items-center justify-center gap-3 text-[3.5rem] md:text-[3.2rem] text-[rgb(32,32,32)] font-extrabold text-center'><FaBriefcase /> Experience</h2>
 
-    <div className='timeline'>
+    <div data-aos='fade-down' className='timeline'>
 
     <div className="container right">
       <div className="content">
