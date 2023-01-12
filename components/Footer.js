@@ -39,17 +39,17 @@ const Footer = () => {
             <p className='flex items-center gap-4 text-[1.5rem] text-[#ccc] py-[0.7rem] px-0 tracking-wider normal-case'><FaEnvelope className='text-[#ffae00]'/>nipunmitra09@gmail.com</p>
             <p className='flex items-center gap-4 text-[1.5rem] text-[#ccc] py-[0.7rem] px-0 tracking-wider'><FaMapMarkedAlt className='text-[#ffae00]'/>Greater Noida, India-201310</p>
             <div className='flex flex-wrap py-4 px-0'>
-                <Link href='#'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
+                <Link href='https://www.linkedin.com/in/nipun-mitra-ab01b120b/'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
                 text-[1.7rem] mr-4 transition duration-[0.2s] bg-[#E6E6E6] text-[#02094b]
                 border-none hover:bg-transparent hover:scale-[0.98] hover:border-[0.1rem]
                 hover:border-solid hover:border-[#B4B2B2] hover:text-[#ffae00]
                 '><FaLinkedin/></a></Link>
-                <Link href='#'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
+                <Link href='https://github.com/Falcon-09'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
                 text-[1.7rem] mr-4 transition duration-[0.2s] bg-[#E6E6E6] text-[#02094b]
                 border-none hover:bg-transparent hover:scale-[0.98] hover:border-[0.1rem]
                 hover:border-solid hover:border-[#B4B2B2] hover:text-[#ffae00]
                 '><FaGithub/></a></Link>
-                <Link href='#'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
+                <Link href='mailto:nipunmitra09@gmail.com'><a className='flex items-center justify-center h-16 w-16 p-4 text-center rounded-[5rem]
                 text-[1.7rem] mr-4 transition duration-[0.2s] bg-[#E6E6E6] text-[#02094b]
                 border-none hover:bg-transparent hover:scale-[0.98] hover:border-[0.1rem]
                 hover:border-solid hover:border-[#B4B2B2] hover:text-[#ffae00]
