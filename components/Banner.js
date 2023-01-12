@@ -22,11 +22,11 @@ const Banner = () => {
             '><span className='font-[625] text-[1.7rem] tracking-wide md:text-[1.6rem]'>About Me</span><FaArrowCircleDown className='mt-1 ml-[0.57rem] text-[1.7rem] transition duration-[0.3s] group-hover:translate-x-[6px]'/></a></Link>
             <div className='relative mt-[9rem] md:mt-[12rem]'>
               <ul className='pl-0 mb-0 no-underline'>
-                <li className='inline-block mb-[14px]'><Link href='#'><a className='text-[2rem] flex items-center justify-center leading-[44px] text-[#00d9ff] 
+                <li className='inline-block mb-[14px]'><Link href='https://www.linkedin.com/in/nipun-mitra-ab01b120b/'><a className='text-[2rem] flex items-center justify-center leading-[44px] text-[#00d9ff] 
                 bg-[#09011b] w-[44px] h-[44px] text-center mr-[8px] rounded-full transition duration-[0.2s] ease-out hover:text-white
                 hover:bg-[#007bb6]
                 '><FaLinkedin /></a></Link></li>
-                 <li className='inline-block mb-[14px]'><Link href='#'><a className='text-[2rem] flex items-center justify-center leading-[44px] text-[#00d9ff] 
+                 <li className='inline-block mb-[14px]'><Link href='https://github.com/Falcon-09'><a className='text-[2rem] flex items-center justify-center leading-[44px] text-[#00d9ff] 
                 bg-[#09011b] w-[44px] h-[44px] text-center mr-[8px] rounded-full transition duration-[0.2s] ease-out hover:text-white
                 hover:bg-[#0e0e0e]
                 '><FaGithub /></a></Link></li>
