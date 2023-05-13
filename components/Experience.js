@@ -16,11 +16,11 @@ const Experience = () => {
     <div className="container right">
       <div className="content">
         <div className="tag">
-          <h2 className='text-[2rem] font-bold'>Self Employed</h2>
+          <h2 className='text-[2rem] font-bold'>Visit Health</h2>
         </div>
         <div className="desc">
             <h3 className='text-[1.5rem] font-semibold'>Full Stack Developer</h3>
-            <p className='text-[1.2rem]'>Jan 2022 - present</p>
+            <p className='text-[1.2rem]'>Jan 2023 - present</p>
         </div>
       </div>
     </div>
